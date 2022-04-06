@@ -1,0 +1,106 @@
+html {
+  background-color: #000000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 42px;
+}
+
+.logo {
+  font-family: "Bebas Neue", cursive;
+  font-size: 32px;
+}
+
+.logo-text-who {
+  font-family: "IBM Plex Sans";
+  font-weight: 600;
+  color: white;
+  font-size: 32px;
+  line-height: 41.6px;
+  margin-top: 73px;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-top: 61px;
+}
+ul {
+  gap: 20px;
+  width: 700px;
+}
+ul li {
+  text-align: center;
+  width: 160px;
+  align-items: center;
+  text-align: center;
+}
+
+ul li figure {
+  height: 100%;
+
+  border-radius: 8px;
+  width: 160px;
+  height: 160px;
+  background-color: #1e1e20;
+  overflow: hidden;
+  border: 2px transparent solid;
+  margin-bottom: 16px;
+}
+ul li figure:hover {
+  border: 2px solid white;
+  color: white;
+}
+ul li figure:hover + p {
+  color: white;
+}
+p {
+  font-family: "IBM Plex Sans";
+  font-weight: 600;
+  color: #9c9c9c;
+  font-size: 14px;
+  line-height: 18.2px;
+}
+
+[alt="new user"] {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  width: 65px;
+  height: 65px;
+}
+ul li figure:hover [alt="new user"] {
+  filter: brightness(10000%);
+}
+
+ul li figure img {
+  border-radius: 8px;
+  margin-bottom: 16px;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+}
+
+.user-img:hover {
+  transform: scale(1.4);
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border: 1.5px solid #ffffff;
+  width: 206px;
+  height: 50px;
+  border-radius: 8px;
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+  margin-top: 102px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
